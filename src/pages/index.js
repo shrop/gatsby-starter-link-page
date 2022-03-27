@@ -1,5 +1,4 @@
 import * as React from "react"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Masonry from "react-masonry-css"
@@ -8,8 +7,8 @@ const breakpointColumnsObj = {
   default: 4,
   1100: 3,
   700: 2,
-  500: 1
-};
+  500: 1,
+}
 
 const IndexPage = () => (
   <Layout>
@@ -18,7 +17,8 @@ const IndexPage = () => (
     <Masonry
       breakpointCols={breakpointColumnsObj}
       className="my-masonry-grid"
-      columnClassName="my-masonry-grid_column">
+      columnClassName="my-masonry-grid_column"
+    >
       <div>Link 1</div>
       <div>Link 2</div>
       <div>Link 3</div>
